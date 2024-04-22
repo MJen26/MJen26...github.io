@@ -1,0 +1,13 @@
+.bgimg{
+    background-image: url(la.jpg);
+    background-size: cover;
+}
+
+.text-bss{
+    color: #b14343;
+}
+
+.phimg{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
