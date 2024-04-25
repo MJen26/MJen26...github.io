@@ -11,3 +11,22 @@
     background-image: url(bg.jpg);
     background-size: cover;
 }
+
+.bgball{
+    background-image: url(ball2.jpg);
+    background-size: cover;
+
+    background-position: center;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px #ddd;
+    transform: translate(-5px -5px) rotate(-1deg);
+    display: flex;
+}
+
+.card-img-overlay:hover
+
+.bg-cs{
+    background-color: #7c6e52;
+}
