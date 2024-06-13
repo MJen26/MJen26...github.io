@@ -1,0 +1,35 @@
+$(function(){
+    $('.text1').hover(function(){
+        $('.book-q1').toggle('fast');
+    })
+})
+$(function(){
+    $('.text3').hover(function(){
+        $('.book-q3').toggle('fast');
+    })
+})
+$(function(){
+    $('.ch-name1').click(function(){
+        $('.ch-box1').show();
+        $('.ch-box2').hide();
+        $('.ch-box3').hide();
+        $('.slinn-pic').hide();
+    })
+})
+$(function(){
+    $('.ch-name2').click(function(){
+        $('.ch-box2').show();
+        $('.ch-box1').hide();
+        $('.ch-box3').hide();
+        $('.slinn-pic').hide();
+    })
+})
+$(function(){
+    $('.ch-name3').click(function(){
+        $('.ch-box3').show();  
+        $('.ch-box1').hide();
+        $('.ch-box2').hide();
+        $('.slinn-pic').slideDown();     
+    })
+})
+

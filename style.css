@@ -1,32 +1,225 @@
-.bgimg{
-    background-image: url(la.jpg);
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url();
+    background-color: darkgray;
+}
+.box {
+    justify-content: space-between;
+    display: flex;
+    background-image: url(fg.jpg);
+    height: 700px;
     background-size: cover;
+    background-position-y: bottom;
 }
 
-.text-bss{
-    color: #b14343;
+.quote{
+    position: relative;
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-block;
+    animation: quote 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes quote{
+    from{
+        top: 0; opacity: 0;
+    }
+    to{
+        top: -25px;
+    }
+}
+.name{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.preface-word1 {
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    bottom: 90px;
+}
+.preface-word2{
+    color: #ffffff;
+    position: absolute;
+    left: 140px;
+    bottom: 70px;
+}
+.preface-word3{
+    color: #ffffff;
+    position: absolute;
+    left: 300px;
+    bottom: 40px;
 }
 
-.phimg{
-    background-image: url(bg.jpg);
-    background-size: cover;
+.book-line {
+    text-align: end;
+    justify-content: flex-end;
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+    width: 100%;
 }
 
-.bgball{
-    background-image: url(ball2.jpg);
-    background-size: cover;
-
-    background-position: center;
+.book {
+    width: 50%;
+    align-content: end;
+    transition: all .3s;
 }
 
-.card:hover{
-    box-shadow: 5px 5px 5px #ddd;
-    transform: translate(-5px -5px) rotate(-1deg);
+.book-q1 {
+    font-size: medium;
+    width: fit-content;
+    height: 100%;
+    background: rgb(255, 255, 255);
+}
+.book-q1:hover{
+    width: fit-content;
+}
+.book-q3 {
+    font-size:larger;
+    color: #d92f2f;
+    width: fit-content;
+    height: 100%;
+    background: rgb(0, 0, 0);
+}
+.book-q3:hover{
+    width: 100%;   
+}
+.text1 {
+    background-color: #fff;
+    height: 100%;
+    width: fit-content;
+    font-size: 150px;
+    align-content: end;
+}
+
+.text2 {
+    background-color: #fff;
+    height: 100%;
+    font-size: 100px;
+    align-content: end;
+}
+
+.text3 {
+    background-color: #fff;
+    height: 100%;
+    font-size: 150px;
+    align-content: end;
+
+}
+.text3:hover{
+    color: #d92f2f;
+    background: rgb(0, 0, 0);
+}
+.chapter{
+    height: 100%;
     display: flex;
 }
+.ch-menu{
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 700px;
+    width: 20%;
+    line-height: 3;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #cacacabb;
+    text-align: left;
+}
+.slinn-pic {
+    display: none;
+    background-size: cover;
+    background-position: center;
+    background-color: #433a2f;
+    width: 20%;
 
-.card-img-overlay:hover
+}
+.ch1234{
+    display: grid;
+    width: 60%;
+    position: relative;
+}
+.ch-box1{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-family: sans-serif;
 
-.bg-cs{
-    background-color: #7c6e52;
+}
+
+.say1 {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.con1{
+    margin-left: 100px;
+    text-justify: auto;
+    line-height: 1.5;
+}
+.ch-box2{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-family: sans-serif;
+
+    padding-right: 40px;
+}
+.say2{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.shout{
+    color: #f6f670;
+    margin-left: 100px;
+    font-size: 40px;
+    line-height: 1.4;
+    background-color: rgb(100, 100, 100);
+}
+.shhh{
+    text-align: right;
+    color: #cdcdcd;
+}
+.ch-box3{
+    
+    font-family: sans-serif;
+    padding-right: 40px;
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+.say3 {
+    margin-top: 100px;
+    margin-left: 80px;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.ch-box5{
+    font-size: large;
+    text-align: center;
+    line-height: 2;
+    font-weight: bold;
+    padding: 180px 0 180px 0;
+}
+
+.foot{
+    display: flex;
+    align-content: space-between;
+    font-family: sans-serif;
+    justify-content: space-around;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #000;
 }
